@@ -4,6 +4,7 @@ import requests, string
 
 HOST =  'http://127.0.0.1:8000'
 ALPHANUMRIC = string.digits + string.ascii_letters
+# Add more string.punctuation if necessary.
 SUCCESS_TEXT = 'admin'
 FLAG = ''
 lengthOfResult = 32
